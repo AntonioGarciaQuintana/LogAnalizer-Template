@@ -36,8 +36,14 @@ export class NavigationService {
       icon: 'dashboard',
     },
     {
-      name: 'FORMS',
+      name: 'Processing options',
       type: 'separator'
+    },
+    {
+      name: 'Analyze log',
+      state: 'forms/wizard',
+      type: 'link',
+      icon: 'grain',
     },
     {
       name: 'BASIC',
@@ -56,12 +62,6 @@ export class NavigationService {
       state: 'forms/upload',
       type: 'link',
       icon: 'upload',
-    },
-    {
-      name: 'WIZARD',
-      state: 'forms/wizard',
-      type: 'link',
-      icon: 'grain',
     },
     {
       name: 'PAGES',

@@ -1,3 +1,4 @@
+import { FileUploader } from 'ng2-file-upload';
 import { Component, OnInit } from '@angular/core';
 import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 
@@ -9,7 +10,7 @@ import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms
 export class WizardComponent implements OnInit {
   firstFormGroup: UntypedFormGroup;
   secondFormGroup: UntypedFormGroup;
-
+  public uploader: FileUploader = new FileUploader({ url: 'https://evening-anchorage-315.herokuapp.com/api/' });
   constructor(private fb: UntypedFormBuilder) { }
 
   ngOnInit() {

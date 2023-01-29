@@ -32,7 +32,6 @@ import { AppComfirmComponent } from '../services/app-confirm/app-confirm.compone
 import { AppLoaderComponent } from '../services/app-loader/app-loader.component';
 import { ButtonLoadingComponent } from './button-loading/button-loading.component';
 import { MatxSidebarComponent, MatxSidebarTogglerDirective } from './matx-sidebar/matx-sidebar.component';
-import { BottomSheetShareComponent } from './bottom-sheet-share/bottom-sheet-share.component';
 import { MatxExampleViewerComponent } from './example-viewer/example-viewer.component';
 import { MatxExampleViewerTemplateComponent } from './example-viewer-template/example-viewer-template.component';
 import { MatxNotifications2Component } from './matx-notifications2/matx-notifications2.component';
@@ -56,7 +55,6 @@ const components = [
   MatxSidebarComponent,
   FooterComponent,
   MatxSidebarTogglerDirective,
-  BottomSheetShareComponent,
   MatxExampleViewerComponent,
   MatxExampleViewerTemplateComponent
 ]
